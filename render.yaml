@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: tg-video-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
